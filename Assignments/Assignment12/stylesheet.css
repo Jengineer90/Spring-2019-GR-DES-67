@@ -1,0 +1,32 @@
+/* @import url("nav.css");
+@import url("lightbox.min.css");
+@import url("imagegallery.css");
+@import url("form.css");
+@import url("typography.css");
+@import url("layout.css");
+ */
+
+ /* 
+@media (min-width: 512px){
+    .logo {
+        padding-top: 60px;
+        padding-left: 330px;
+    }
+}
+@media (min-width: 768px){
+    .logo {
+        padding-left: 530px;
+    }
+}
+@media (min-width: 960px){
+    .logo {
+        padding-left: 730px;
+    }
+    .picture__img {
+        max-width: 50%;
+        padding-left: 420px;
+    }
+}
+@media (min-width: 1200px){
+    
+} */
