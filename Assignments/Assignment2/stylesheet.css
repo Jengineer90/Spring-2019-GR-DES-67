@@ -6,26 +6,33 @@
 @import url("layout.css");
  */
 
- 
-@media (min-width: 512px){
-    .logo {
-        padding-top: 60px;
-        padding-left: 330px;
-    }
+.row {
+    background-color: whitesmoke;
+}
+
+.col-sm {
+
+}
+/* [class^="col-"]:first-child {
+    background-color: aquamarine;
+}
+
+[class^="col-"]:last-child {
+    background-color: blueviolet;
+} */
+
+.img {
+    align-items: center;
+}
+
+@media (min-width: 576px){
+
 }
 @media (min-width: 768px){
-    .logo {
-        padding-left: 530px;
-    }
+
 }
-@media (min-width: 960px){
-    .logo {
-        padding-left: 730px;
-    }
-    .picture__img {
-        max-width: 50%;
-        padding-left: 420px;
-    }
+@media (min-width: 992px){
+
 }
 @media (min-width: 1200px){
     
