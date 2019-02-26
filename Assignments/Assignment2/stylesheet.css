@@ -1,8 +1,11 @@
+body{
+    background-color: #3f0478;
+}
 .navbar {
     height: 100px;
 }
 .bg-light {
-    background-color: rgb(22, 1, 34)!important;
+    background-color: rgb(38, 2, 58)!important;
 }
 .navbar-brand {
      width: 20%;
@@ -20,12 +23,15 @@ a {
 a:hover {
     color: rgb(235, 226, 109);
 }
+.jumbotron {
+    padding-top: 140px;
+}
 .row {
     background-color: rgb(238, 238, 238);
     padding-top: 10px;
 }
 .psylocke1 {
-    padding-top: 120px;
+    padding-top: 5px;
 }
 img {
     width: 90%;
@@ -41,7 +47,7 @@ p {
 }
 @media (min-width: 576px){
     .bg-light {
-        background-color: rgb(22, 1, 34)!important;
+        background-color: rgb(38, 2, 58)!important;
     }
     .navbar-brand {
         width: 50%;
@@ -55,9 +61,6 @@ p {
     a {
         margin-top: -15px;
         padding: 0px;
-    }
-    .psylocke1 {
-        padding-top: 120px;
     }
     img {
         width: 80%;
