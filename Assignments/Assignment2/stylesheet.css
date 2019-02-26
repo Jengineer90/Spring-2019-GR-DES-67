@@ -24,14 +24,19 @@ a:hover {
     color: rgb(235, 226, 109);
 }
 .jumbotron {
+    background-image: url(images/psylocke10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
     padding-top: 140px;
+
+}
+.display-4 {
+    text-shadow: black 1px 0px 1px;
 }
 .row {
     background-color: rgb(238, 238, 238);
     padding-top: 10px;
-}
-.psylocke1 {
-    padding-top: 5px;
 }
 img {
     width: 90%;
@@ -68,6 +73,10 @@ p {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    /* .card-body {
+        width: 100px;
+        height: 50px;
+    } */
     p {
         font-size: 22px;
     }
