@@ -1,39 +1,106 @@
-/* @import url("nav.css");
-@import url("lightbox.min.css");
-@import url("imagegallery.css");
-@import url("form.css");
-@import url("typography.css");
-@import url("layout.css");
- */
-
+.navbar {
+    height: 100px;
+}
+.bg-light {
+    background-color: rgb(22, 1, 34)!important;
+}
+.navbar-brand {
+     width: 20%;
+     margin: 0px;
+     padding: 0px;
+ }
+.logo {
+     width: 120px;
+     margin-top: -20px;
+ }
+a {
+     color: white;
+     margin-top: -15px;
+ }
+a:hover {
+    color: rgb(235, 226, 109);
+}
 .row {
-    background-color: whitesmoke;
+    background-color: rgb(238, 238, 238);
+    padding-top: 10px;
 }
-
-.col-sm {
-
+.psylocke1 {
+    padding-top: 120px;
 }
-/* [class^="col-"]:first-child {
-    background-color: aquamarine;
+img {
+    width: 90%;
+    height: auto;
 }
-
-[class^="col-"]:last-child {
-    background-color: blueviolet;
-} */
-
-.img {
-    align-items: center;
+p {
+    color: rgb(34, 0, 66);
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: -150px;
 }
-
 @media (min-width: 576px){
-
+    .bg-light {
+        background-color: rgb(22, 1, 34)!important;
+    }
+    .navbar-brand {
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .logo {
+        width: 120px;
+        margin-top: -30px;
+    }
+    a {
+        margin-top: -15px;
+        padding: 0px;
+    }
+    .psylocke1 {
+        padding-top: 120px;
+    }
+    img {
+        width: 80%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    p {
+        font-size: 22px;
+    }
 }
 @media (min-width: 768px){
-
+    img {
+        width: 60%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    p {
+        font-size: 20px;
+    }
 }
 @media (min-width: 992px){
+    .logo {
+        width: 120px;
+        margin-top: -5px;
+    }
+    img {
+        width: 50%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
+    p {
+        font-size: 15px;
+    }
 }
 @media (min-width: 1200px){
-    
+    img {
+        width: 20%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
