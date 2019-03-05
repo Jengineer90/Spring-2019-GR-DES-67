@@ -6,12 +6,26 @@
     font-family: 'Bitter', serif;
     font-size: 40px;
 }
+.btn {
+    background-color: #ffbcc4!important;
+    color: #000000;
+}
+.btn-outline-success {
+        border-color: gray!important;
+}
+.btn-outline-success:hover {
+    color: #ffffff;
+}
 .jumbotron {
-    background-color: #fae2e6;
+    background-image: url(images/22020633-seamless-white-floral-lace-pattern-on-pink-background.jpg);
     padding: 30px;
 }
+a:hover {
+    background-color: #ffbcc4!important;
+    color: #000000;
+}
 .container-1 {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 80px;
 }
 .cup-1 {
@@ -21,37 +35,59 @@
     margin-left: 15px; 
     margin-right: 15px; 
 }
+.bg-primary {
+    background-color: #ffbcc4!important;
+}
+h1 {
+    text-shadow: 1px 2px #a05e5e;
+}
+h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+}
 h3 {
+    font-size: 40px;
     font-family: 'Homemade Apple', cursive;
 }
 h4 {
     font-size: 40px;
-    color: #ffbcc4;
-    text-shadow: 1px 2px #000000;
+    color: #000000;
+}
+p {
+    font-size: 30px;
+}
+dt {
+    color: #ffbcc4!important;
+    font-size: 30px;
+}
+dd {
+    font-size: 25px;
 }
 table {
-    background-color: #fae2e6;
+    background-color: #f4dce0e9;
 }
-@media (min-width: 576px){
-    .logo {
-        padding-top: 60px;
-        padding-left: 330px;
-    }
-}
+
 @media (min-width: 768px){
-    .logo {
-        padding-left: 530px;
-    }
+
 }
 @media (min-width: 992px){
-    .logo {
-        padding-left: 730px;
+    h2 {
+        font-size: 30px;
     }
-    .picture__img {
-        max-width: 50%;
-        padding-left: 420px;
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+    dt {
+        color: #ffbcc4!important;
+        font-size: 20px;
+    }
+    dd {
+        font-size: 15px;
     }
 }
 @media (min-width: 1200px){
-    
+
 }
