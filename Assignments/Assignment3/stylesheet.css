@@ -67,9 +67,6 @@ table {
     background-color: #f4dce0e9;
 }
 
-@media (min-width: 768px){
-
-}
 @media (min-width: 992px){
     h2 {
         font-size: 30px;
@@ -87,7 +84,4 @@ table {
     dd {
         font-size: 15px;
     }
-}
-@media (min-width: 1200px){
-
 }
