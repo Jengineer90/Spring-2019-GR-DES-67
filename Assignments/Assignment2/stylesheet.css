@@ -104,9 +104,6 @@ p {
     } */
     img {
         width: 50%;
-        height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
     }
     p {
         font-size: 15px;
@@ -115,8 +112,5 @@ p {
 @media (min-width: 1200px){
     img {
         width: 20%;
-        height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
     }
 }
