@@ -38,6 +38,9 @@ a:hover {
 .bg-primary {
     background-color: #ffbcc4!important;
 }
+a.bg-primary:hover {
+    background-color: #ffbcc4!important;
+}
 h1 {
     text-shadow: 1px 2px #a05e5e;
 }
@@ -66,6 +69,8 @@ dd {
 table {
     background-color: #f4dce0e9;
 }
+
+
 
 @media (min-width: 992px){
     h2 {
