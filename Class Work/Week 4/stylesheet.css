@@ -7,7 +7,7 @@
  */
 
  /* 
-@media (min-width: 512px){
+@media (min-width: 576px){
     .logo {
         padding-top: 60px;
         padding-left: 330px;
@@ -18,7 +18,7 @@
         padding-left: 530px;
     }
 }
-@media (min-width: 960px){
+@media (min-width: 992px){
     .logo {
         padding-left: 730px;
     }
