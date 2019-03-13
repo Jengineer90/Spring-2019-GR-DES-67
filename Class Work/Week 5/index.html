@@ -7,13 +7,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
 </head>
 <body>
+<h1>Using Java Script</h1>
+<!-- First Button Option -->
+<h2>First Button Option</h2>
+<div>
+    <p id="text1">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+    </p>
+    <button onclick="changeColor1();">Color Me!</button>
+</div>
+
+<!-- Second Button Option -->
+<h2>Second Button Option</h2>
+<div>
+    <p id="text2">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    </p>
+    <button id="button1">Me Color!</button>
+    <button id="button2">Hide Me!</button>
+</div>
 
 
+<!-- Third Button Option -->
+<h2>Third Button Option</h2>
+<div>
+    <p id="text3">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    </p>
+    <button id="button1_1" class="color-button">Me Color!</button>
+    <button id="button1_2" class="hide-button">Hide Me!</button>
+</div>
+
+<div>
+    <p id="text4">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    </p>
+    <button id="button2_1" class="color-button">Me Color!</button>
+    <button id="button2_2" class="hide-button">Hide Me!</button>
+</div>
 
 
+<script>
 
+// <!-- Option 1 on how to use script for buttons -->
+    // var changeColor1 = function(){
+    //     var text = document.getElementById("text1");
+    //     var redVal = Math.random()*255;
+    //     var greenVal = Math.random()*255;
+    //     var blueVal = Math.random()*255;
+
+    //     console.log(redVal);
+
+    //     text.style.backgroundColor = "rgb(" + redVal + ", " + greenVal + ", " + blueVal + ")";
+    // }
+
+
+// <!-- Option 2 on how to use script for buttons -->
+    var colorButton1 = document.getElementById("button1");   
+    var displayButton1 = document.getElementById("button2");
+
+    var text2 = document.getElementById("text2");
+
+
+        var changeColor = function(textElement){
+            // var text = document.getElementById("text2");
+            var redVal = Math.random()*255;
+            var greenVal = Math.random()*255;
+            var blueVal = Math.random()*255;
+
+            console.log();
+
+            textElement.style.backgroundColor = "rgb(" + redVal + ", " + greenVal + " , " + blueVal + ")";
+        }
+
+        var hideText = function(textElement){
+            text.style.display = "none"
+        }
+
+    colorButton1.addEventListener("click", changeColor(text2));
+    displayButton1.addEventListener("click", hideText(text2));
+
+
+// <!-- Option 3 on how to use script for buttons -->
+    // $(document).ready(function(){
+    //     $(".color-button").click(function(){
+    //         var redVal = Math.random()*255;
+    //         var greenVal = Math.random()*255;
+    //         var blueVal = Math.random()*255;
+    //         $(this).siblings("p").css("background-color","rgb(" + redVal + ", " + greenVal + ", " + blueVal + ")");
+    //     });
+
+    //     $(".hide-button").click(function(){
+    //         if($(this).siblings("p").css("display")==="none"){
+    //             $(this).text("Hide me!");
+    //         }
+    //         else{
+    //             $(this).text("Show Me!");
+    //         }
+
+    //         (this).siblings("p").toggle();
+    //     })  
+    // });
+    
+    </script>
 
 
 </body>
