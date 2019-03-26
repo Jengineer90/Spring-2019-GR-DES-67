@@ -1,6 +1,7 @@
 @import url("nav.css");
 @import url("typography.css");
 @import url("layout.css");
+
 nav {
     max-height: 10%;
 }
@@ -29,6 +30,13 @@ body {
 }
 .container-modal {
     padding-top: 20px;
+}
+.media1 {
+    padding-top: 90px;
+}
+.container-1{
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 @media (min-width: 576px){
