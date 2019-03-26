@@ -1,0 +1,96 @@
+@import url("nav.css");
+@import url("typography.css");
+@import url("layout.css");
+nav {
+    max-height: 10%;
+}
+body {
+    background-color: lightgray;
+}
+.jumbotron {
+    padding-top: 100px;
+}
+.carousel-image {
+    max-height: 800px;
+}
+.carousel-caption {
+    background-color: lightgray;
+    opacity: 0.9;
+    padding: 12px;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+}
+.carousel-control-next-icon{
+    background-color: black;
+}
+.featurette-divider {
+    visibility: hidden;
+}
+.container-modal {
+    padding-top: 20px;
+}
+
+@media (min-width: 576px){
+    /* .bg-light {
+        background-color: rgb(38, 2, 58)!important;
+    }
+    .navbar-brand {
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .logo {
+        width: 120px;
+        margin-top: -30px;
+    }
+    a {
+        margin-top: -15px;
+        padding: 0px;
+    }
+    img {
+        width: 80%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    p {
+        font-size: 22px;
+    } */
+}
+@media (min-width: 768px){
+    /* img {
+        width: 60%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    p {
+        font-size: 20px;
+    } */
+}
+@media (min-width: 992px){
+    /* .logo {
+        width: 120px;
+        margin-top: -5px;
+    } */
+    /* .card-img-top {
+        min-height: 430px;
+        padding: 0px;
+    } */
+    /* .card-text {
+        max-height: 200px;
+        text
+    } */
+    /* img {
+        width: 50%;
+    }
+    p {
+        font-size: 15px;
+    } */
+}
+@media (min-width: 1200px){
+    /* img {
+        width: 20%;
+    } */
+}
