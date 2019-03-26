@@ -1,0 +1,62 @@
+/* Foundation v2.1.4 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+table.responsive {
+    border-collapse: collapse;
+	border-spacing: 0;
+	border-bottom:none;
+	table-layout: auto;
+	border:none;
+} 
+.responsive tr.gray {background:#dcdad9;}
+.responsive tr.white {background:#fff;border:none;}
+.responsive tr.white th {background:#fff;border:none;}
+.responsive th, .responsive td {text-align:center;vertical-align:middle;font-size:16px;}
+.responsive th.on, .responsive td.on{background: #d22f2a;color:#fff;}
+.responsive th.off, .responsive td.off{background: #ec2426;color:#fff;}
+.responsive th img, .responsive td img {width:110px;}
+.responsive tr td {border:1px solid #ccc;}
+.responsive tr th {border:none;}
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+	
+	.pinned { position: absolute; left: 0; top: 0; background: #fff; width:50%; overflow: hidden; overflow-x: scroll; }
+	table tr td.on, table tr td.off {padding:0 10px;}
+
+	.pinned table { width: 100%; }
+	.pinned table th, .pinned table td { white-space: nowrap; }
+	.pinned td:last-child { border:none }
+
+	.pinned th.on, .pinned td.on{background: #d22f2a;color:#fff;font-weight:bold;vertical-align:middle;}
+	.pinned th.off, .pinned td.off{background: #ec2426;color:#fff;font-weight:bold;vertical-align:middle;}
+	
+	div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; }
+	div.table-wrapper div.scrollable { margin-left: 50%; }
+	div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; }	
+	
+	table.responsive td, table.responsive th { position: relative; white-space: nowrap; overflow: hidden; border:1px solid #ccc;}
+	table.responsive th {border:none;}
+	table.responsive th:first-child, table.responsive td:first-child, table.responsive td:first-child, table.responsive.pinned td { display: none; }	
+
+    /* table.responsive { position: relative; top: -9px; } */
+  
+    table { border-collapse: collapse; border-spacing: 0; }
+    
+    /* table.responsive { position:relative; top: -9px; } */
+    table.responsive td, .pinned table td { max-width: none!important; min-width: 100px; height: 52px!important; padding: 0 10px!important; }  
+}

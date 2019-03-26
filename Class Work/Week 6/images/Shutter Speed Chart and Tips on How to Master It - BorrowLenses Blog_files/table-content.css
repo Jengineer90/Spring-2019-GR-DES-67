@@ -1,0 +1,29 @@
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------*/
+
+.toc-table { margin: 10px 0; /* width: 350px;  */  /* float: left; */ }
+.toc-intro { float: left; /* width: 420px; */ max-width: 100%; /* padding: 40px 10px 0; */ }
+.toc-intro p:first-child { font-size: 1.25em; }
+
+.anchor { padding-top: 60px; margin-top: -60px; display: table-caption; }
+.entry-content h2.toc {  padding-top: 15px; padding-bottom: 10px;}
+.entry-content ul.toc, .entry-content ol.toc { padding: 0; }
+.entry-content ul.toc a, .entry-content ol.toc a {font-weight: 400;}
+.entry-content ul.toc a:hover, .entry-content ol.toc a:hover {text-decoration: underline; font-weight: 700;}
+.entry-content ul.toc li, .entry-content ol.toc li {display: list-item; /* padding: 5px 5px 0 18px; */  padding: 5px 5px 0 0;  line-height: 25px; position: relative; background: #fff;}
+
+.entry-content ul.toc li:before { background: url('https://www.borrowlenses.com/blog/wp-content/uploads/2016/07/bullet.jpg') no-repeat center center; content: ""; top: 11px; left: 0;  position: absolute;  }
+.entry-content ul.toc li:before { content: ''; position: absolute; top: 11px; left: 3px; background: none; width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-left: 6px solid #de101d; margin-top: 0;}
+
+.entry-content ul.toc li:nth-child() {  }
+.entry-content ul.toc li:nth-child(even), .entry-content ol.toc li:nth-child(even)  { background: #efefef; }
+.entry-content ul.toc li:hover, .entry-content ol.toc li:hover  { background: #d4d4d4; }
+.entry-content ul.toc li ul li { background: transparent!important; display: list-item; list-style-position: inside; color: #de101d; list-style-type: decimal; padding: 0; }
+.entry-content ol.toc li { 
+    color: #8e0000;
+}
+.entry-content ul.toc li ul li:before { border: none; }
+
+.entry-content ul li ul { padding-left: 0; }
+.entry-content .toc a { -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
