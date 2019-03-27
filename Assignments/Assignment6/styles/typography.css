@@ -2,8 +2,23 @@ h1 {
     color: black;
 }
 h2 {
-    color: black; 
+    color: white; 
+}
+h3{
+    color: white;
+}
+h4{
+    color: black;
 }
 p {
+    color: white;
+}
+.p1 {
     color: black;
+}
+dt {
+    color: white;
+}
+dd {
+    color: white;
 }
