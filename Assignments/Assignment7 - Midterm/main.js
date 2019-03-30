@@ -1,11 +1,7 @@
 $(document).ready(function(){
     $('.carousel').carousel({
-        interval:   500, 
+        interval:   5000, 
         keyboard:   false,
-    });
-
-    $('.carousel-pauser').click(function(){
-        $('.carousel').carousel('pause');
     });
 
     $('.carousel').on('slid.bs.carousel', function(event){
