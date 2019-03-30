@@ -65,20 +65,10 @@ body {
 @media (min-width: 768px){
     .img-thumbnail{
         max-width: 200px;
-}
+    }
     .icons {
         padding-left: 150px;
     }
-    /* img {
-        width: 60%;
-        height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    p {
-        font-size: 20px;
-    } */
-}
 @media (min-width: 992px){
     .navbar-brand {
         margin-right: 0px;
@@ -86,29 +76,11 @@ body {
     }
     .img-thumbnail{
         max-width: 250px;
-}
+    }
     .icons {
         padding-left: 340px;
     }
-    /* .logo {
-        width: 120px;
-        margin-top: -5px;
-    } */
-    /* .card-img-top {
-        min-height: 430px;
-        padding: 0px;
-    } */
-    /* .card-text {
-        max-height: 200px;
-        text
-    } */
-    /* img {
-        width: 50%;
-    }
-    p {
-        font-size: 15px;
-    } */
-}
+
 @media (min-width: 1200px){
     .navbar-brand {
         margin-right: 0px;
@@ -117,7 +89,3 @@ body {
     .icons {
         padding-left: 410px;
     }
-    /* img {
-        width: 20%;
-    } */
-}
