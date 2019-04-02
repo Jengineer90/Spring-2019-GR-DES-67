@@ -44,20 +44,20 @@ body {
     .img-thumbnail{
         max-width: 200px;
     }
-    .icons {
+    /* .icons {
         padding-left: 150px;
-    }
+    } */
 }
 @media (min-width: 992px){
     .img-thumbnail{
         max-width: 250px;
     }
-    .icons {
+    /* .icons {
         padding-left: 340px;
-    }
+    } */
 }
 @media (min-width: 1200px){
-    .icons {
+    /* .icons {
         padding-left: 410px;
-    }
+    } */
 }
