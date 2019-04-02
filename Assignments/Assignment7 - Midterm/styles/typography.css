@@ -1,14 +1,18 @@
 h1 {
     color: black;
+    font-family: 'Maitree', serif;
 }
 h2 {
-    color: white; 
+    color: white;
+    font-family: 'Maitree', serif;
 }
 h3{
     color: white;
+    font-family: 'Maitree', serif;
 }
 h4{
     color: black;
+    font-family: 'Maitree', serif;
 }
 p {
     color: white;
@@ -27,4 +31,7 @@ th {
 }
 td {
     font-size: 12px;
+}
+.navbar-brand {
+    font-family: 'Maitree', serif;
 }
