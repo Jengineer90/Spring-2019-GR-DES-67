@@ -10,7 +10,7 @@
         margin:0px 30px;
     }
     .w-100 {
-        width: 50%!important;
+        width: 75%!important;
     }
 }
 @media (min-width: 768px){
@@ -22,11 +22,12 @@
         background-color: black;
     }
     .w-100 {
-        width: 25%!important;
+        width: 50%!important;
     }
 }
 @media (min-width: 992px){
-    .team-pad {
-        margin:0px 150px;
+    .team {
+        max-width: 1200px;
+        /* margin:0px 150px; */
     }
 }

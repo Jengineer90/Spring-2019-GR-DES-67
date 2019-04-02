@@ -1,5 +1,6 @@
 .jumbotron {
     padding-top: 90px;
+    border-radius: 0rem;
 }
 .carousel-image {
     max-height: 800px;

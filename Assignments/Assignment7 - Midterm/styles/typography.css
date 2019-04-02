@@ -16,6 +16,8 @@ h4{
 }
 p {
     color: white;
+    letter-spacing: 1px;
+    line-height: 1.6;
 }
 .p1 {
     color: black;
