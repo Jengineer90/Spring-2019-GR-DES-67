@@ -1,5 +1,29 @@
+.img-thumbnail-headshot{
+    max-width: 70px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0;
+    background-color: black;
+}
+@media (min-width: 576px){
+    .team-pad {
+        margin:0px 30px;
+    }
+}
 @media (min-width: 768px){
+    .img-thumbnail-headshot{
+        max-width: 120px;
+        padding: 0px;
+        border: 0px;
+        border-radius: 0;
+        background-color: black;
+    }
     .w-100 {
         width: 50%!important;
+    }
+}
+@media (min-width: 992px){
+    .team-pad {
+        margin:0px 150px;
     }
 }
