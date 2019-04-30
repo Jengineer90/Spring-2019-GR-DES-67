@@ -1,42 +1,91 @@
 .jumbotron {
-    background-image:repeating-radial-gradient( azure, dodgerblue 8.333%, indigo 16.666%,  dodgerblue 25%, azure 33.333%);
+    background-color: rgb(11, 3, 122);
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
 }
 
 .field {
-    min-height: 600px;
-    background-color: darkturquoise;
+    min-height: 900px;
+    background-color: rgb(11, 3, 122);
+    background-image:repeating-radial-gradient( lightblue, dodgerblue 8.333%, white 16.666%,  dodgerblue 25%, purple 23.333%);
 }
 
 .thing {
-    width: 100px;
+    width: 150px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 100%;
     position: absolute;
+    letter-spacing: 2px;
     /* background-color:blue; */
-    animation-name: motion1;
-    animation-duration: 2s;
+    animation-name: motion1;    
+    animation-duration: 6s;
     animation-delay: 3s;
     animation-iteration-count: 4;
     animation-fill-mode: both;
     animation-timing-function: ease-out;
 }
+h2 {
+    padding-top: 12px;
+    text-align: center;
+}
 
 @keyframes motion1{
     0%{
         background-color: blue;
-        top: 5px;
-        left: 10px;
+        color: yellow;
+        top: 400px;
+        left: 500px;
     }
 
-    25% {
-        background-color: red;
-        top: 300px;
-        left: 150px;
+    20% {
+        transform: rotate(-360deg);
+        background-color: lightsalmon;
+        color: purple;
+        top: 50px;
+        left: 100px;
+        text-shadow: 10px 10px 10px black;
+        letter-spacing: 50px;
+    }
+
+    40% {
+        transform: rotate(360deg);
+        background-color: darkred;
+        color: green;
+        top: 100px;
+        left: 850px;
+        text-shadow: 10px 10px 10px white;
+    }
+
+    60% {
+        transform: rotate(-360deg);
+        background-color: yellow;
+        color: blue;
+        top: 600px;
+        left: 50px;
+        text-shadow: 10px 10px 10px black;
+        letter-spacing: 50px;
+    }
+
+    80% {
+        transform: rotate(360deg);
+        background-color: purple;
+        color: lightsalmon;
+        top: 700px;
+        left: 850px;
+        text-shadow: 10px 10px 10px white;
     }
 
     100% {
-        background-color: indigo;
-        top: 100px;
+        transform: rotate(0deg);
+        background-color: green;
+        color: red;
+        top: 400px;
         left: 500px;
     }
 }
