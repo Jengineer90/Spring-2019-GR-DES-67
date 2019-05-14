@@ -4,37 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Canvas 1</title>
-
+    <title>Canvas 2 - The Game</title>
     <style>
         body {
-            background-color: cadetblue;
             margin: 0px;
         }
-        #myCanvas{
-            width: 400px;
-            height: 400px;
+        canvas {
+            border: 1px solid black;
         }
     </style>
 </head>
 <body>
-    <canvas id="myCanvas">
-        This is supposed to be an interactive Canvas. Please use a newer browser!
+    <canvas width="800" height="600" id="Game">
+        This would have been an amazing game for you....
     </canvas>
-
-    <script>
-    var canvas = document.getElementById("myCanvas");
-    var context = canvas.getContext("2d");
-
-    context.fillStyle = "#FFFFFF";
-    context.fillRect(0, 0, canvas.width, canvas.height);
-
-    context.fillStyle = "#FFa099";
-    context.fillRect(20, 100, 150, 100);
-    
-    context.font = "24px Helvetica";
-    context.textAlign = "center";
-    context.fillText("This is my text", canvas.width/2, canvas.height/2);
-    </script>
+    <script src="canvas.js"></script>
 </body>
 </html>
