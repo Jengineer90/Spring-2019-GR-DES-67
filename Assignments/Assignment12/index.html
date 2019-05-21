@@ -1,20 +1,53 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA Compatible" content="IE=edge">
-    <title>Index</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Multimedia</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="variables" href="variables.scss">
+
 </head>
 <body>
+    <!-- <svg width="400" height="400">
+        <circle cx="200" cy="200" r="100" fill="red"></circle>
+        <circle cx="200" cy="200" r="50" fill="blue"></circle>
 
+    </svg> -->
 
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zec1d02OBno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+    </div>
 
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825357.372369844!2d-113.40356944233469!3d36.09221466668988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x873312ae759b4d15%3A0x1f38a9bec9912029!2sGrand+Canyon+National+Park!5e0!3m2!1sen!2sus!4v1558462616573!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825357.372369844!2d-113.40356944233469!3d36.09221466668988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x873312ae759b4d15%3A0x1f38a9bec9912029!2sGrand+Canyon+National+Park!5e0!3m2!1sen!2sus!4v1558462616573!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zec1d02OBno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
+    <div class="center">
+        <picture>
+            <source srcset="https://nthp-savingplaces.s3.amazonaws.com/2016/08/18/14/49/49/810/GC_confluence_kcaldon_GrandCanyonTrust.jpg" media="(min-width: 1100px)" type="image/jpg">
+            <source srcset="https://46yuuj40q81w3ijifr45fvbe165m-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/horseshoe-bend-600x370.jpg" media="(min-width: 600px)" type="image/jpg">
+            <img src="https://www.thecanyon.com/uploads/img_487_2.jpg" alt="Default image">
+        </picture>
+    </div>
 
+    <!-- <video controls loop="loop" muted poster="https://www.fnordware.com/superpng/pnggrad16rgb.png"> 
+        <source src="big_buck_bunny_480p_stereo.ogg" type="video/ogg">
+        <source src="sample.mp4" type="video/mp4">
+        <source src="sample.webm" type="video/webm">
+    </video> -->
 
+    <audio controls>
+        <source src="The Sounds of the Grand Canyon.mp3" type="audio/mp3">
+        <!-- <source src="sample.ogg" type="audio/ogg">
+        <source src="sample.wav" type="audio/wav"> -->
+    </audio>
 </body>
 </html>
