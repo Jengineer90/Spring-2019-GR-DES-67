@@ -1,20 +1,199 @@
-<!Doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA Compatible" content="IE=edge">
-    <title>Index</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- My Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Homemade+Apple" rel="stylesheet">
+
+    <title>Assignment 13</title>
+  </head>
 <body>
 
+    <!-- My NAV -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Order</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Recipes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
+    <!-- My Jumbotron -->
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Sweet Treats!</h1>
+    </div>
 
+    <!-- My Container -->
+    <div class="container-1">
+        <!-- My Three Cupcakes -->
+        <div class="row">
+            <div class="col-lg-4 text-left">
+                <img src="images/c8f35591-funfetti-freakshake-cupcakes-pc.jpg" class="img-thumbnail w-50 rounded-circle mx-auto d-block">
+                <h3 class="mt-5 mt-md-4">Funfetti</h3>
+                <p class="text-dark">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <p><a class="btn btn-secondary bg-primary mb-5 mb-md-3" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 text-left">
+                <img src="images/Chocolate-Covered-Strawberry-Cupcakes4.jpg" class="img-thumbnail w-50 rounded-circle mx-auto d-block">
+                <h3 class="mt-5 mt-md-4">Chocolate</h3>
+                <p class="text-dark">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p><a class="btn btn-secondary bg-primary mb-5 mb-md-3" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 text-left">
+                <img src="images/untitled-18-of-55-5.jpg" class="img-thumbnail w-50 rounded-circle mx-auto d-block">
+                <h3 class="mt-5 mt-md-4">Blueberry</h3>
+                <p class="text-dark">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-secondary bg-primary mb-5 mb-md-3" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    
+        <!-- My Featurette -->
+        <div class="row">
+            <div class="col">
+                <div class="featurette">
+                <hr class="featurette-divider">
+                <div class="row featurette">
+                    <div class="col">
+                    <h2 class="featurette-heading mt-5">Chai Latte Cupcakes</h2>
+                    <dl>
+                        <dt>Homemade chai spice mix</dt>
+                        <dd>a blend of 4 simple kitchen spices makes the delicious chai spice flavor you love. Grab some cinnamon, cardamom, ginger, and allspice. This chai spice mix will be used in both the cupcake batter and buttercream, as well as the garnish on top.</dd>
+                        <dt>Chai infused cupcakes</dt>
+                        <dd>we’ll use my basic vanilla cupcakes as the base, adding a generous amount of our chai spice mix. Instead of regular milk, we’ll use chai tea milk made from a bag of chai tea steeped in 1/2 cup warm whole milk. This concentrated amount of chai flavor turns our spiced cupcake batter into actual chai cupcake batter. It’s the secret sauce. Let the milk cool before adding to the batter. Steep it the night before to save time.</dd>
+                        <dt>Chai spice buttercream</dt>
+                        <dd>richly flavored vanilla buttercream spiced with our homemade chai spice mix. It’s unbelievable how much flavor dry spices can add to our frosting!</dd>
+                    </dl>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/chai-latte-cupcakes.jpg" class="img-thumbnail w-50 rounded-square float-lg-right">
+                    </div>
+                </div>
+            
+                <hr class="featurette-divider">
+            
+                <div class="row featurette">
+                    <div class="col text-lg">
+                    <h2 class="featurette-heading mt-5">White Chocolate Strawberry Cupcakes</h2>
+                    <dl>
+                        <dt>As a refresher</dt>
+                        <dd>If we added the strawberry puree without reducing it down first, it would completely ruin the texture of the cupcake and the strawberry flavor would be almost absent. Reducing it is the secret.</dd>
+                        <dt>What are we doing with the reduced strawberry puree?</dt>
+                        <dd>We’re adding it to my homemade vanilla cupcakes. This recipe produces very soft cupcakes, but I found that the reduced strawberry puree weighed it down. To compensate, I made adjustments to the wet ingredients and increased the baking powder for extra lift.</dd>
+                        <dt>Tip</dt>
+                        <dd>Fill the cupcake liners only about 2/3 full to avoid overflowing.</dd>
+                    </dl>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/homemade-strawberry-cupcakes.jpg" class="img-thumbnail w-50 rounded-square float-lg-right">
+                    </div>
+                </div>
+            
+                <hr class="featurette-divider">
+            
+                </div>
+            </div>
+        </div>
 
+        <!-- Table with Striped Rows -->
+        <!-- <div class="row">
+            <div class="col">
+                <table class="table table-striped">
+                <thead>
+                    <h4 class="mt-5 mt-md-3 text-center">Bakers</h4>
+                    <tr>
+                    <th scope="col"></th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Instagram</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row"></th>
+                    <td>Jenn</td>
+                    <td>Smith</td>
+                    <td>@Ringleader</td>
+                    </tr>
+                    <tr>
+                    <th scope="row"></th>
+                    <td>Jacob</td>
+                    <td>Horn</td>
+                    <td>@Cake&Bake</td>
+                    </tr>
+                    <tr>
+                    <th scope="row"></th>
+                    <td>Susan</td>
+                    <td>Thompson</td>
+                    <td>@FrostQueen</td>
+                    </tr>
+                </tbody>
+                    </table>
+            </div>
+        </div> -->
 
-
-
+        <!-- List of Media Objects -->
+        <div class="row">
+            <div class="col">
+                <ul class="list-unstyled">
+                    <li class="media mt-5 pl-4 pr-4">
+                        <img src="images/easy-chocolate-cupcakes-17429609-1017_horiz.jpg" class="mr-3 w-25 mx-auto d-block pr-4" alt="...">
+                        <div class="media-body">
+                            <h3 class="mt-0 mb-1">Chocolate Cupcakes</h3>
+                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                        </div>
+                    </li>
+                    <li class="media pl-4 pr-4 my-4 pb-4">
+                        <img src="images/1504040562-delish-moscato-cupcakes-still001.jpg" class="mr-3 w-25 mx-auto d-block pr-4" alt="...">
+                        <div class="media-body">
+                            <h3 class="mt-0">Rose Water Cupcakes</h3>
+                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+    </div>
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </body>
 </html>
