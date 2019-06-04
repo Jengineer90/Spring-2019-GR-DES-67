@@ -1,0 +1,107 @@
+.btn {
+    background-color: #bfd1ff!important;
+    color: #000000;
+}
+.btn-outline-success {
+        border-color: gray!important;
+}
+.btn-outline-success:hover {
+    color: #ffffff;
+}
+button:focus{
+    outline: 5px auto #5676c7;
+}
+.jumbotron {
+    background-image: url(../images/Jacquard_look_bluewhite-01_mirror_2.png);
+    background-color: darkgray;
+    background-blend-mode: screen;
+    padding-top: 150px;
+}
+a:hover {
+    background-color: #dae4f5!important;
+    color: #000000;
+}
+.container-1 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.container-3 {
+    margin: 0px;
+}
+.img-thumbnail {
+    background:  #bfd1ff;
+    border-radius: 0rem;
+}
+.row {
+    margin-left: 15px; 
+    margin-right: 15px; 
+}
+.bg-primary {
+    background-color: #bfd1ff!important;
+}
+a.bg-primary:hover {
+    background-color: #5676c7!important;
+}
+table {
+    background-color: #bfd1ff;
+}
+.latest-title {
+    text-align: left;
+}
+.container-vegan {
+    margin-top: 120px;
+}
+.container-4 {
+    background-color:  #bfd1ff;
+    height: 170px;
+}
+.container-form {
+    background-color: #dae4f5 !important;
+}
+.container-checkout {
+    background-color: #dae4f5 !important;
+}
+input[type=submit] {
+    background-color: #5676c7!important;
+}
+.nav-icon {
+background-color: #f7f9fa;
+-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+animation-name: example;
+animation-duration: 4s;
+}
+@-webkit-keyframes example {
+    0%   {background-color: #5676c7;}
+    25%  {background-color: #dae4f5;}
+    50%  {background-color: #bfd1ff}
+    100%  {background-color: #f7f9fa}
+}
+@media (min-width: 992px){
+    .latest-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .latest-title {
+        text-align: center;
+    }
+    .row-background {
+        background-image: url(../images/Jacquard_look_bluewhite-01_mirror_3.jpg);
+        background-color: darkgray;
+        background-blend-mode: screen;
+    }
+    .container-background {
+        background-image: url(../images/Jacquard_look_bluewhite-01_mirror_3.jpg);
+        background-color: darkgray;
+        background-blend-mode: screen;
+    }
+    .carousel-row{
+        padding-left: 0px;
+        max-width: 100%;
+    }
+    .container-4 {
+        height: 150px;
+    }
+}

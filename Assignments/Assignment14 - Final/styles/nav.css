@@ -1,0 +1,45 @@
+.navbar-toggler {
+    padding: 1px 7px 2px !important;
+}
+.navbar-brand {
+    color: #5676c7!important;
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    margin: 0px;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+.nav-link {
+    text-align: center;
+}
+.nav-link-cart {
+    text-align: center;
+}
+.dropdown-item {
+    text-align: center;
+}
+.active {
+    color: #ffffff !important;
+    background-color:  #5676c7!important;
+}
+.dropdown-item.active {
+    background-color:  #5676c7!important;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav-link-cart {
+        padding-top: 5px !important;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+        width: 60px;
+        height: 40px !important;
+    }
+    .dropdown-item {
+        text-align: left;
+    }
+}

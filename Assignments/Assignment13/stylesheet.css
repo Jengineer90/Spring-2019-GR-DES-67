@@ -2,11 +2,14 @@
     /* height: 100px; */
 }
 .navbar-brand {
-    color: #ffbcc4!important;
+    color: #5676c7!important;
     font-family: 'Bitter', serif;
     font-size: 40px;
 }
-.btn {
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+}.btn {
     background-color: #bfd1ff!important;
     color: #000000;
 }
@@ -16,13 +19,17 @@
 .btn-outline-success:hover {
     color: #ffffff;
 }
+button:focus{
+    outline: 5px auto #5676c7;
+}
 .jumbotron {
-    background-image: url(images/Jacquard_look_bluewhite-01_mirror.png);
-    opacity: .5;
-    padding: 150px;
+    background-image: url(images/Jacquard_look_bluewhite-01_mirror_2.png);
+    background-color: darkgray;
+    background-blend-mode: screen;
+    padding-top: 150px;
 }
 a:hover {
-    background-color: #ffbcc4!important;
+    background-color: #5676c7!important;
     color: #000000;
 }
 .container-1 {
@@ -40,11 +47,7 @@ a:hover {
     background-color: #bfd1ff!important;
 }
 a.bg-primary:hover {
-    background-color: darkblue!important;
-}
-h1 {
-    text-shadow: 1px 2px darkblue;
-    opacity: 1.0;
+    background-color: #5676c7!important;
 }
 h2 {
     font-family: 'Homemade Apple', cursive;
@@ -59,13 +62,15 @@ h4 {
     color: #000000;
 }
 p {
+    font-family: 'Lora', serif;
     font-size: 25px;
 }
 dt {
-    color: #bfd1ff !important;
+    color: #5676c7 !important;
     font-size: 30px;
 }
 dd {
+    font-family: 'Lora', serif;
     font-size: 25px;
 }
 table {
@@ -83,7 +88,7 @@ table {
         font-size: 15px;
     }
     dt {
-        color: #bfd1ff!important;
+    color: #5676c7 !important;
         font-size: 20px;
     }
     dd {
