@@ -63,15 +63,13 @@ input[type=submit] {
 }
 .nav-icon {
 background-color: #f7f9fa;
--webkit-animation-name: example; /* Safari 4.0 - 8.0 */
--webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
 animation-name: example;
-animation-duration: 4s;
+animation-duration: 2s;
 }
 @-webkit-keyframes example {
-    0%   {background-color: #5676c7;}
-    25%  {background-color: #dae4f5;}
-    50%  {background-color: #bfd1ff}
+    25%   {background-color: #bfd1ff;}
+    50%  {background-color: #dae4f5;}
+    75%  {background-color: #bfd1ff}
     100%  {background-color: #f7f9fa}
 }
 @media (min-width: 992px){
@@ -83,11 +81,6 @@ animation-duration: 4s;
     }
     .latest-title {
         text-align: center;
-    }
-    .row-background {
-        background-image: url(../images/Jacquard_look_bluewhite-01_mirror_3.jpg);
-        background-color: darkgray;
-        background-blend-mode: screen;
     }
     .container-background {
         background-image: url(../images/Jacquard_look_bluewhite-01_mirror_3.jpg);
